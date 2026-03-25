@@ -1,0 +1,8 @@
+services:
+  web:
+    volumes:
+      - ..:/app
+    environment:
+      DJANGO_DEBUG: "1"
+      DJANGO_LOAD_TEST_DATA: "1"
+    restart: "no"

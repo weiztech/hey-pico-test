@@ -1,0 +1,15 @@
+[project]
+name = "test-heypico"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.0.3",
+    "django-cors-headers>=4.9.0",
+    "djangorestframework>=3.17.0",
+    "drf-spectacular>=0.29.0",
+    "googlemaps>=4.10.0",
+    "python-ulid>=3.1.0",
+    "redis>=7.3.0",
+]
